@@ -8,6 +8,9 @@ namespace WinFormsApp1.Mecanismos
 {
     public class Reductora
     {
-
+        public Reductora()
+        {
+            
+        }
     }
 }
