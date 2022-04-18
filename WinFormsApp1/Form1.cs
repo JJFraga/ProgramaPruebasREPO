@@ -16,7 +16,12 @@ namespace WinFormsApp1
         private void toolStripButton2_Click(object sender, EventArgs e)
         {
 
-        } 
+        }
         #endregion
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
