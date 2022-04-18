@@ -35,7 +35,6 @@
             this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton4 = new System.Windows.Forms.ToolStripButton();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
-            this.button1 = new System.Windows.Forms.Button();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -98,21 +97,11 @@
             this.statusStrip1.TabIndex = 3;
             this.statusStrip1.Text = "statusStrip1";
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(25, 74);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(650, 289);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(696, 479);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.toolStrip1);
             this.IsMdiContainer = true;
@@ -136,6 +125,5 @@
         private ToolStripButton toolStripButton3;
         private ToolStripButton toolStripButton4;
         private StatusStrip statusStrip1;
-        private Button button1;
     }
 }
